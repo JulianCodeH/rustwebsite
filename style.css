@@ -1,0 +1,76 @@
+body {
+	background-color: #B22222;
+}
+
+
+header {
+	background-color: white;
+	margin-right: -8px;
+	margin-left: -8px;
+	margin-top: -16px;
+}
+
+
+#link1 {
+	position: fixed;
+	right: 100px;
+	top: 10px;
+	color: black;
+	text-decoration: none;
+}
+
+
+#link1:hover {
+	color: yellow;
+}
+
+
+#image-rustlogo {
+	position: absolute;
+	left: 705px;
+	top: 10%;
+}
+
+
+#title-rust {
+	color: black;
+	font-size: 400%;
+	position: absolute;
+	left: 910px;
+	top: 55%;
+}
+
+
+#text-rust {
+	font-size: 200%;
+	position: absolute;
+	left: 750px;
+	top: 65%;
+}
+
+
+#what-is-rust {
+	background-color: lightgrey;
+	width: 1945px;
+	height: 940px;
+	margin-top: 950px;
+	margin-left: -50px;
+	background-repeat: no-repeat;
+}
+
+
+#title-what-is-rust {
+	position: absolute;
+	left: 770px;
+	top: 1000px;
+	font-size: 400%;
+}
+
+
+#text-what-is-rust {
+	font-size: 200%;
+	position: absolute;
+	left: 5px;
+	right: 5px;
+	top: 1150px;
+}
