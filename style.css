@@ -1,76 +1,105 @@
+/* Body */
+
+
 body {
-	background-color: #B22222;
+	background-image: url("images/rustscreenshot.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 2040px 1000px;
 }
 
 
-header {
-	background-color: white;
-	margin-right: -8px;
-	margin-left: -8px;
-	margin-top: -16px;
-}
+/* Navigation */
 
 
-#link1 {
+#navigation {
 	position: fixed;
 	right: 100px;
-	top: 10px;
-	color: black;
+	top: 15px;
+}
+
+
+#ahome {
 	text-decoration: none;
+	color: darkblue;
+	font-family: georgia;
 }
 
 
-#link1:hover {
-	color: yellow;
+#awhatisrust {
+	text-decoration: none;
+	color: darkblue;
+	font-family: georgia;
 }
 
 
-#image-rustlogo {
-	position: absolute;
-	left: 705px;
-	top: 10%;
+/* Frontpage */
+
+
+#frontpage {
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: -22px;
+	height: 1080px;
 }
 
 
 #title-rust {
-	color: black;
-	font-size: 400%;
 	position: absolute;
-	left: 910px;
-	top: 55%;
+	top: 300px;
+	left: 850px;
+	font-size: 100px;
+	color: #002c93;
 }
 
 
 #text-rust {
-	font-size: 200%;
+	font-weight: bold;
 	position: absolute;
-	left: 750px;
-	top: 65%;
+	top: 500px;
+	left: 600px;
+	color: #003ac1;
+	font-size: 40px;
 }
 
 
-#what-is-rust {
-	background-color: lightgrey;
-	width: 1945px;
-	height: 940px;
-	margin-top: 950px;
-	margin-left: -50px;
-	background-repeat: no-repeat;
+/* What is Rust? */
+
+
+#whatisrust {
+	margin-top: -22px;
+	margin-right: -8px;
+	margin-left: -8px;
 }
 
 
-#title-what-is-rust {
+#titlefigure-whatisrust {
+	height: 20px;
+	width: 50px;
 	position: absolute;
-	left: 770px;
-	top: 1000px;
-	font-size: 400%;
+	margin-top: -70px;
+	margin-left: 20px;
+
 }
 
 
-#text-what-is-rust {
-	font-size: 200%;
+#title-whatisrust {
 	position: absolute;
-	left: 5px;
-	right: 5px;
-	top: 1150px;
+	margin-top: -50px;
+	margin-left: 20px;
+	color: lightblue;
+	font-size: 50px;
+}
+
+
+#text-whatisrust {
+
+}
+
+
+/* Footer */
+
+
+footer {
+	
 }
